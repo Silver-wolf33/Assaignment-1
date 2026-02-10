@@ -50,11 +50,7 @@ nav ul li {
 }
 .hero {
   height: 674px;
-<<<<<<< HEAD
   background-image: url(../assets/hero-bg.png);
-=======
-  background-image: url(assets/hero-bg.png);
->>>>>>> b8c36960d09e4f83173788c4ee2f033cae3544d3
   background-repeat: none;
   display: flex;
   align-items: center;
