@@ -25,6 +25,11 @@
   margin-top: 24px;
   box-shadow: 0 10px 20px #00000026;
 }
+.btn:hover{
+  background-color: #f95555;
+  color:#FFFFFF;
+  border: 2px solid #F7F6F2;
+}
 
 nav {
   /* width: 71%; */
@@ -118,9 +123,9 @@ nav ul li {
   gap: 16px;
 }
 #btn2 {
+  background-color:transparent;
   color: #ffffff;
-  border: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #FFFFFF;
   border-radius: 4px;
   padding: 12px 16px;
   font-size: 16px;
@@ -131,6 +136,12 @@ nav ul li {
   display: flex;
   gap: 10px;
   margin-top: 24px;
+  box-shadow: 0 10px 20px #00000026;
+
+}
+#btn2:hover{
+  color: #469165;
+  border: 2px solid #30b868;
 }
 
 .extra-info {
