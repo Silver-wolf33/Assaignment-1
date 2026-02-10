@@ -50,7 +50,7 @@ nav ul li {
 }
 .hero {
   height: 674px;
-  background-image: url(/assets/hero-bg.png);
+  background-image: url(../assets/hero-bg.png);
   background-repeat: none;
   display: flex;
   align-items: center;
@@ -256,7 +256,7 @@ nav ul li {
 }
 .enroll-heading{
   max-width: 1280px;
-  margin:80px 40px 24px 40px;
+  padding: 80px 40px 24px 40px;
   text-align: center;
 }
 .enroll-heading h3{
@@ -284,4 +284,15 @@ nav ul li {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
+}
+/* footer */
+footer{
+  max-width: 1600px;
+  background-color: #001931;
+}
+.footer-info{
+  max-width: 1360px;
+  padding: 120px 120px;
+  display: flex;
+  justify-content: space-between;
 }
