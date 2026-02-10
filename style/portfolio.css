@@ -50,7 +50,11 @@ nav ul li {
 }
 .hero {
   height: 674px;
+<<<<<<< HEAD
   background-image: url(../assets/hero-bg.png);
+=======
+  background-image: url(assets/hero-bg.png);
+>>>>>>> b8c36960d09e4f83173788c4ee2f033cae3544d3
   background-repeat: none;
   display: flex;
   align-items: center;
@@ -285,6 +289,7 @@ nav ul li {
   font-size: 16px;
   font-weight: 400;
 }
+<<<<<<< HEAD
 /* footer */
 footer{
   max-width: 1600px;
@@ -296,3 +301,5 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+=======
+>>>>>>> b8c36960d09e4f83173788c4ee2f033cae3544d3
