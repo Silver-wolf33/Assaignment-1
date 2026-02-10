@@ -193,13 +193,13 @@ nav ul li {
   font-weight: 400;
   line-height: 20px;
 }
-.solution {
+.solution,.enroll {
   max-width: 1600px;
 }
 .solution-container {
   max-width: 1360px;
   height: 600px;
-  margin: 0 auto;
+  margin: 120px;
   display: flex;
   gap: 60px;
 }
@@ -248,4 +248,40 @@ nav ul li {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 16px;
+}
+.enroll-container{
+  max-width: 1360px;
+  margin: 2px 120px 120px 120px;
+  background-color: #F7F6F2;
+}
+.enroll-heading{
+  max-width: 1280px;
+  margin:80px 40px 24px 40px;
+  text-align: center;
+}
+.enroll-heading h3{
+  color: #001931;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.enroll-heading p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button-section{
+  max-width: 1280px;
+  margin: 0 40px 80px 40px;
+}
+.button-section button{
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.button-section p{
+  text-align: center;
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
 }
