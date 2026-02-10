@@ -23,6 +23,7 @@
   display: flex;
   gap: 10px;
   margin-top: 24px;
+  box-shadow: 0 10px 20px #00000026;
 }
 
 nav {
@@ -48,6 +49,7 @@ nav ul li {
   font-weight: 500;
   font-size: 16px;
 }
+/* hero-section */
 .hero {
   height: 674px;
   background-image: url(../assets/hero-bg.png);
@@ -130,6 +132,7 @@ nav ul li {
   gap: 10px;
   margin-top: 24px;
 }
+
 .extra-info {
   max-width: 1600px;
   text-align: center;
@@ -193,6 +196,7 @@ nav ul li {
   font-weight: 400;
   line-height: 20px;
 }
+
 .solution,.enroll {
   max-width: 1600px;
 }
@@ -249,6 +253,7 @@ nav ul li {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 .enroll-container{
   max-width: 1360px;
   margin: 2px 120px 120px 120px;
@@ -295,5 +300,42 @@ footer{
   padding: 120px 120px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
+.socials{
+  max-width: 220px;
 
+}
+.socials h5{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.social-img{
+  display: flex;
+  width: 20px;
+  height: 20px;
+  gap: 16px;
+}
+.copyright{
+  max-width: 1360px;
+  padding-top: 30px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.copyright p{
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 16px;
+  font-weight: 400;
+ 
+}
+hr{
+  max-width: 1360px;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: #E5E7EB;
+  opacity: 0.2;
+}
